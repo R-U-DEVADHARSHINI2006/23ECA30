@@ -12,11 +12,11 @@ function App() {
       <section id="center">
         
         <div>
-          <h1 className='h'>CAMPUS NOTIFICATION MICROSERVICES</h1>
+          <h1>CAMPUS NOTIFICATION MICROSERVICES</h1>
         </div>
         
       </section>
-      <div><form>
+      <div className="form"><form>
         <label>Name:</label>
         <input type='text'></input><br></br>
      
@@ -29,6 +29,7 @@ function App() {
     <option value="cse">Computer Science Engineering</option>
     <option value="aids">Artificial Intelligence and Data Science</option>
     <option value="it">Information Technology</option>
+    <option value="others">Others</option>
 </select><br></br>
      
         <label>Mail Id:</label>
@@ -37,6 +38,7 @@ function App() {
         <label>Password:</label>
         <input type='password'></input><br></br>
         <button className='button'>Login</button>
+
       </form></div>
       
       <div className="ticks"></div>
