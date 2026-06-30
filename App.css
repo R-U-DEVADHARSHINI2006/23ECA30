@@ -55,6 +55,9 @@
       scale(0.8);
   }
 }
+form{
+  justify-content: start;
+}
 
 #center {
   display: flex;
@@ -133,6 +136,7 @@
     .button-icon {
       height: 18px;
       width: 18px;
+      border: 0cqb;
     }
   }
 
@@ -181,7 +185,8 @@
     right: 0;
     border-right-color: var(--border);
   }
+ 
   .button{
-    color: greenyellow;
+    color: rgb(171, 240, 67);
   }
 }
