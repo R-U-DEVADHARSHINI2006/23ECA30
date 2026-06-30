@@ -12,7 +12,7 @@ function App() {
       <section id="center">
         
         <div>
-          <h1>CAMPUS NOTIFICATION MICROSERVICES</h1>
+          <h1 className='h'>CAMPUS NOTIFICATION MICROSERVICES</h1>
         </div>
         
       </section>
@@ -36,7 +36,7 @@ function App() {
       
         <label>Password:</label>
         <input type='password'></input><br></br>
-        <button class="but">Login</button>
+        <button className='button'>Login</button>
       </form></div>
       
       <div className="ticks"></div>
